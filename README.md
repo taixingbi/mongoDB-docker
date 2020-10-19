@@ -13,7 +13,7 @@ create a documentary
 ```
 mongo
 use test
-db.users_test.insertMany([
+db.test.insertMany([
 {
  "name": "hunter",
  "age": 36, 
