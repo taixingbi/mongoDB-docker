@@ -35,6 +35,8 @@ name:"hunter"
 remote ec2  mongodb
 ```
 mongo "54.87.133.19:27017"
+mongo -u kaden -p 1234 54.87.133.19/ml-test
+
 54.87.133.19:3000
 ```
 
