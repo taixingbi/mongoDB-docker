@@ -1,11 +1,14 @@
 ## ec2 ubuntu 18.04 install mongo
 
 ##### Run mongo db container 
+```
 docker run  -p 27017:27017 --name mdb mongo
+```
 
 ##### bash into the container and run mongo shell 
+```
 docker exec -it mdb mongo
-
+```
 
 ##### create a documentary
 ```
