@@ -25,6 +25,12 @@ db.users_test.insertMany([
  "title" : "clerk"
 }])
 ```
+findOne
+```
+{
+name:"hunter"
+}
+```
 
 remote ec2  mongodb
 ```
