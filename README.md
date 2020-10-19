@@ -4,7 +4,7 @@ https://medium.com/faun/install-mongodb-on-aws-ubuntu-ec2-instance-6794cd8e3b4e
 
 ```
 mongo
-use hunter
+use test
 db.users_test.insertMany([
 {
  "name": "hunter",
@@ -18,6 +18,10 @@ db.users_test.insertMany([
 }])
 ```
 
+remote ec2  mongodb
+```
+mongo "54.87.133.19:27017"
+```
 
 ### more docker 
 ```
