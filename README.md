@@ -1,12 +1,12 @@
 ## ec2 ubuntu 18.04 install mongo
 Run mongo db container 
 ```
-docker run  -p 27017:27017 --name mdb mongo
+sudo docker run  -p 27017:27017 --name mdb mongo
 ```
 
 bash into the container and run mongo shell 
 ```
-docker exec -it mdb mongo
+sudo docker exec -it mdb mongo
 ```
 
 create a documentary
@@ -33,7 +33,7 @@ mongo "54.87.133.19:27017"
 
 run ui
 ```
-docker run -p 3000:3000 --name mclient mongoclient/mongoclient
+sudo docker run -p 3000:3000 --name mclient mongoclient/mongoclient
 ```
 
 reference
