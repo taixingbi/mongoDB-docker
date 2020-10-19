@@ -5,7 +5,7 @@ https://medium.com/faun/install-mongodb-on-aws-ubuntu-ec2-instance-6794cd8e3b4e
 ```
 mongo
 use hunter
-db.employees.insertMany([
+db.users_test.insertMany([
 {
  "name": "hunter",
  "age": 36, 
