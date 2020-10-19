@@ -15,5 +15,6 @@ sudo docker rmi $(sudo docker images -q)
 ### reference
 ```
 https://www.youtube.com/watch?v=DzyC8lqbjC8
+issue: https://stackoverflow.com/questions/39108992/mongoerror-getaddrinfo-enotfound-undefined-undefined27017
 https://phoenixnap.com/kb/docker-mongodb
 ```
