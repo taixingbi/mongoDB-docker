@@ -12,6 +12,13 @@ sudo docker rmi $(sudo docker images -q)
 ```
 
 
+### mongoDB1 -> 
+```
+https://www.youtube.com/watch?v=DzyC8lqbjC8
+issue: https://stackoverflow.com/questions/39108992/mongoerror-getaddrinfo-enotfound-undefined-undefined27017
+```
+
+
 ### reference
 ```
 https://www.youtube.com/watch?v=DzyC8lqbjC8
