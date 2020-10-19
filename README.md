@@ -43,6 +43,15 @@ run ui
 sudo docker run -p 3000:3000 --name mclient mongoclient/mongoclient
 ```
 
+create user and password
+```
+db.createUser({
+    user: 'kaden',
+    pwd: '1234',
+    roles: [{ role: 'readWrite', db:'ml-test'}]
+})
+```
+
 reference
 https://medium.com/faun/install-mongodb-on-aws-ubuntu-ec2-instance-6794cd8e3b4e
 
