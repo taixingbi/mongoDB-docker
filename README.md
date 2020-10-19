@@ -1,3 +1,13 @@
+### ec2 ubuntu 18.04 install mongo
+
+https://medium.com/faun/install-mongodb-on-aws-ubuntu-ec2-instance-6794cd8e3b4e
+
+```
+mongo
+
+```
+
+
 ### more docker 
 ```
 docker stop $(docker ps -aq)    
