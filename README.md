@@ -1,7 +1,13 @@
 ### ec2 ubuntu 18.04 install mongo
 
-https://medium.com/faun/install-mongodb-on-aws-ubuntu-ec2-instance-6794cd8e3b4e
+#### Run mongo db container 
+docker run  -p 27017:27017 --name mdb mongo
 
+#### bash into the container and run mongo shell 
+docker exec -it mdb mongo
+
+
+#### create a documentary
 ```
 mongo
 use test
@@ -22,6 +28,9 @@ remote ec2  mongodb
 ```
 mongo "54.87.133.19:27017"
 ```
+
+https://medium.com/faun/install-mongodb-on-aws-ubuntu-ec2-instance-6794cd8e3b4e
+
 
 ### more docker 
 ```
