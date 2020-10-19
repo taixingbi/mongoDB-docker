@@ -31,6 +31,12 @@ remote ec2  mongodb
 mongo "54.87.133.19:27017"
 ```
 
+run ui
+```
+docker run -p 3000:3000 --name mclient mongoclient/mongoclient
+```
+
+reference
 https://medium.com/faun/install-mongodb-on-aws-ubuntu-ec2-instance-6794cd8e3b4e
 
 
