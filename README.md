@@ -29,6 +29,7 @@ db.users_test.insertMany([
 remote ec2  mongodb
 ```
 mongo "54.87.133.19:27017"
+54.87.133.19:3000
 ```
 
 run ui
