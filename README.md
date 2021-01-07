@@ -34,8 +34,8 @@ name:"hunter"
 
 remote ec2  mongodb
 ```
-mongo "54.87.133.19:27017"
-mongo -u kaden -p 1234 54.87.133.19/ml-test
+mongo "3.89.146.185:27017"
+mongo -u kaden -p 1234 3.89.146.185/ml-test
 
 3.89.146.185:3000
 ssh -i "demo.pem" ubuntu@ec2-3-89-146-185.compute-1.amazonaws.com
