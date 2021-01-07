@@ -37,7 +37,7 @@ remote ec2  mongodb
 mongo "54.87.133.19:27017"
 mongo -u kaden -p 1234 54.87.133.19/ml-test
 
-54.87.133.19:3000
+3.89.146.185:3000
 ```
 
 run ui
